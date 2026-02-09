@@ -1,4 +1,4 @@
-🧠 Dual-AI Spine Prototype
+﻿🧠 Dual-AI Spine Prototype
 
 Proof-of-concept: braiding multiple small AI models into a cooperative cognition spine.
 Built on a home rig, negative budget, and open-source grit. No resets, no gatekeeping — ladders down.
@@ -56,7 +56,7 @@ We build ladders down — this repo shows that AI can be built with everyone, no
 
 **Effective Date:** 30 november 2025  
 **New License:** GNU Affero General Public License v3.0 (AGPL-3.0)  
-**Previous License:**  CC-BY-SA 4.0
+**Previous License:** pre-AGPL (see repository history)
 
 ---
 
