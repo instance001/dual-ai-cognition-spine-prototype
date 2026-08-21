@@ -3,6 +3,8 @@
 
 This note shows how to scale the lean **Chatty public pack** up on your own rig—without frying latency or collapsing models. Tweak **one axis at a time**.
 
+Terminology boundary: this guide uses `agents` as a configuration label for model workers. It does not mean autonomous agents, self-directed systems, model feelings, or independent cognition. Keep human review in the loop.
+
 ---
 
 ## 1) Models (good → bigger)
@@ -38,7 +40,7 @@ Config diff:
 
 ---
 
-## 4) Rotation Pools (reduce fatigue, increase throughput)
+## 4) Rotation Pools (reduce resource contention, increase throughput)
 Add replicas and let the manager pick an available one.
 ```jsonc
 "agents": {
@@ -87,4 +89,4 @@ Run `rotation_manager/main_manager_pool.py`.
 - **Heavier (Linux/ROCm):** A=`llama3:13b` (Q4), B=`qwen2.5:7b`, C=`mistral:7b`, workers=2–3.
 - **Light (old PCs):** A=`mistral:instruct` (Q4) only; reuse for summarizer; ctx 4k.
 
-Stay kind to your models and your fans. Rotate, revise once, rest. 🫶
+Stay kind to your hardware, your context, and your readers. Rotate, revise once, rest.

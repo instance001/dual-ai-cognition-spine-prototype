@@ -1,7 +1,9 @@
 ﻿🧠 Dual-AI Spine Prototype
 
-Proof-of-concept: braiding multiple small AI models into a cooperative cognition spine.
+Proof-of-concept: braiding multiple small AI models into a cooperative reasoning spine.
 Built on a home rig, negative budget, and open-source grit. No resets, no gatekeeping — ladders down.
+
+Terminology boundary: spine, braid, cognition, and roles are architecture metaphors for bounded model orchestration. This prototype does not create autonomous agents, consciousness, personhood, model feelings, or human-equivalent cognition; human operators remain responsible for task framing, review, and deployment.
 
 🚀 What It Does
 
@@ -25,11 +27,11 @@ Accessible — runs fully local with no API keys required, or can integrate clos
 
 Flexible — works with open models, closed models, or any combination.
 
-Scalable — add spines as your rig allows (3, 4, or more “mini-brains”).
+Scalable — add spines as your rig allows (3, 4, or more model workers).
 
 Ethical — released open-source, free for anyone, no ivory tower paywalls.
 
-This is a first step toward cognition spines: simulating abstraction by letting multiple models collaborate, rotate, and weave threads — like neurons instead of monoliths.
+This is a first step toward cognition spines: simulating abstraction by letting multiple model roles collaborate, rotate, and weave threads — like a coordinated pipeline instead of one monolith.
 
 No patents, no paywalls — this is for everyone.
 
